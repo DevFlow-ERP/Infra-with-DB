@@ -10,7 +10,7 @@
 -- ============================================
 INSERT INTO users (id, authentik_id, email, username, full_name, avatar_url, phone, is_active, is_admin, created_at, updated_at) VALUES
 -- Admin user
-(1, 'auth-admin-001', 'admin@devflow.com', 'admin', 'Admin User', 'https://api.dicebear.com/7.x/avataaars/svg?seed=admin', '010-1234-5678', TRUE, TRUE, NOW(), NOW()),
+(1, 'auth-admin-001', 'admin@devflow.com', 'admin123', 'Admin User', 'https://api.dicebear.com/7.x/avataaars/svg?seed=admin', '010-1234-5678', TRUE, TRUE, NOW(), NOW()),
 
 -- Regular developers
 (2, 'auth-dev-001', 'john.doe@devflow.com', 'johndoe', 'John Doe', 'https://api.dicebear.com/7.x/avataaars/svg?seed=john', '010-2345-6789', TRUE, FALSE, NOW(), NOW()),
